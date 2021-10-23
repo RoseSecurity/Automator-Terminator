@@ -16,6 +16,19 @@ pip3 install -r requirements.txt
 
 python3 AutomatorTerminator.py
 ```
+# What is a PLC?
+
+![6es7314-6ch04-0ab0](https://user-images.githubusercontent.com/72598486/138573508-7e5b4717-c725-4866-9b74-2291b485c9e7.jpg)
+
+A PROGRAMMABLE LOGIC CONTROLLER (PLC) is an industrial computer control system that continuously monitors the state of input devices and makes decisions based upon a custom program to control the state of output devices.
+
+Almost any production line, machine function, or process can be greatly enhanced using this type of control system. However, the biggest benefit in using a PLC is the ability to change and replicate the operation or process while collecting and communicating vital information.
+
+Another advantage of a PLC system is that it is modular. That is, you can mix and match the types of Input and Output devices to best suit your application.
+
+# How Automator-Terminator Affects PLCs
+
+Automator-Terminator overwhelms the target device with spoofed traffic, causing a denial of service condition which can result in the PLC not being able to conduct a realtime operation, causing the CPU to go into a "STOP" state, issuing a fault and haulting industrial environment operations, and knocking other devices connected to the PLC (such as the Human Machine Interface) off of the network.
 
 # How Automator-Terminator Works
 
