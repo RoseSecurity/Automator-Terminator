@@ -31,7 +31,7 @@ time.sleep(1.5)
 
 # Get IP to exploit
 
-IP = input("Enter the IP address of the Siemens device to exploit: ")
+IP = input("Enter the IP address of the device to exploit: ")
 
 # Find the mac address of the device
 
