@@ -48,3 +48,7 @@ The tool works by utilizing Scapy to construct ethernet packets from scratch, sp
 - Schneider Modicon M340
 - Schneider Modicon M580
 ```
+
+# Available on ExploitDB:
+
+https://www.exploit-db.com/exploits/50613
